@@ -56,8 +56,8 @@
 		B6BD9E3E1D6E384A0009AB3F /* AudioLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BD9E421D6E384A0009AB3F /* AudioLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioLabUITests.m; sourceTree = "<group>"; };
 		B6BD9E441D6E384A0009AB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6BD9E511D6E398F0009AB3F /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Novocaine.h; path = AudioDSPUtils/Novocaine.h; sourceTree = "<group>"; };
-		B6BD9E521D6E398F0009AB3F /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Novocaine.m; path = AudioDSPUtils/Novocaine.m; sourceTree = "<group>"; };
+		B6BD9E511D6E398F0009AB3F /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Novocaine.h; path = ../AudioDSPUtils/Novocaine.h; sourceTree = "<group>"; };
+		B6BD9E521D6E398F0009AB3F /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Novocaine.m; path = ../AudioDSPUtils/Novocaine.m; sourceTree = "<group>"; };
 		B6BD9E571D6E43140009AB3F /* CircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularBuffer.h; path = AudioDSPUtils/CircularBuffer.h; sourceTree = "<group>"; };
 		B6BD9E581D6E43140009AB3F /* CircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircularBuffer.m; path = AudioDSPUtils/CircularBuffer.m; sourceTree = "<group>"; };
 		B6BD9E5A1D6E46790009AB3F /* satisfaction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = satisfaction.mp3; sourceTree = "<group>"; };
@@ -116,7 +116,9 @@
 		B6BD9E1C1D6E384A0009AB3F /* AudioLab */ = {
 			isa = PBXGroup;
 			children = (
+				B6BD9E511D6E398F0009AB3F /* Novocaine.h */,
 				B6BD9E201D6E384A0009AB3F /* AppDelegate.h */,
+				B6BD9E521D6E398F0009AB3F /* Novocaine.m */,
 				B6BD9E211D6E384A0009AB3F /* AppDelegate.m */,
 				B6BD9E231D6E384A0009AB3F /* ViewController.h */,
 				B6BD9E241D6E384A0009AB3F /* ViewController.m */,
@@ -165,8 +167,6 @@
 				B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */,
 				B6BD9E571D6E43140009AB3F /* CircularBuffer.h */,
 				B6BD9E581D6E43140009AB3F /* CircularBuffer.m */,
-				B6BD9E511D6E398F0009AB3F /* Novocaine.h */,
-				B6BD9E521D6E398F0009AB3F /* Novocaine.m */,
 			);
 			name = DSPUtils;
 			sourceTree = "<group>";
